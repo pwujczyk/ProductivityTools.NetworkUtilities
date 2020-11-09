@@ -1,0 +1,7 @@
+@startuml 
+Title ExternalIP.Get()
+start
+ :Call http://ifconfig.me/ip;
+ :return External IP;
+stop
+@enduml

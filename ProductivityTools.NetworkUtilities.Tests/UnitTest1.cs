@@ -9,7 +9,7 @@ namespace ProducvitityTools.NetworkUtilities.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var x = ExternalIP.Get();
+            var externalIp = ExternalIP.Get();
         }
     }
 }

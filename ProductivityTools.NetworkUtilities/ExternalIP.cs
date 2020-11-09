@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Net;
 
 namespace ProducvitityTools.NetworkUtilities
@@ -8,21 +9,21 @@ namespace ProducvitityTools.NetworkUtilities
         public static string Get()
         {
             var request = (HttpWebRequest)WebRequest.Create("http://ifconfig.me/ip");
-            return "ss";
             //request.UserAgent = "curl"; // this will tell the server to return the information as if the request was made by the linux "curl" command
 
-            //string publicIPAddress;
+            string publicIPAddress;
 
-            //request.Method = "GET";
-            //using (WebResponse response = request.GetResponse())
-            //{
-            //    using (var reader = new StreamReader(response.GetResponseStream()))
-            //    {
-            //        publicIPAddress = reader.ReadToEnd();
-            //    }
-            //}
+            request.Method = "GET";
+            using (WebResponse response = request.GetResponse())
+            {
+                using (var reader = new StreamReader(response.GetResponseStream()))
+                {
+                    publicIPAddress = reader.ReadToEnd();
+                    return publicIPAddress;
+                }
+            }
 
-            //return publicIPAddress.Replace("\n", "");
+            throw new Exception("Addres not returned");
         }
     }
 }
