@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProducvitityTools.NetworkUtilities\ProducvitityTools.NetworkUtilities.csproj" />
+    <ProjectReference Include="..\ProductivityTools.NetworkUtilities\ProductivityTools.NetworkUtilities.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducvitityTools.NetworkUtilities", "ProducvitityTools.NetworkUtilities\ProducvitityTools.NetworkUtilities.csproj", "{09859D17-9633-4F96-B2F6-64EA2331B611}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.NetworkUtilities", "ProductivityTools.NetworkUtilities\ProductivityTools.NetworkUtilities.csproj", "{09859D17-9633-4F96-B2F6-64EA2331B611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducvitityTools.NetworkUtilities.Tests", "ProducvitityTools.NetworkUtilities.Tests\ProducvitityTools.NetworkUtilities.Tests.csproj", "{F4A17448-5F53-475B-919A-1590788487EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.NetworkUtilities.Tests", "ProductivityTools.NetworkUtilities.Tests\ProductivityTools.NetworkUtilities.Tests.csproj", "{F4A17448-5F53-475B-919A-1590788487EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
